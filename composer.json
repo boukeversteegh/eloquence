@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "sofa/hookable": "~1.0",
+        "sofa/hookable": "dev-feature/isdirty",
         "illuminate/contracts": "~5.1",
         "illuminate/database": "~5.1"
     },
@@ -33,6 +33,12 @@
         "squizlabs/php_codesniffer": "2.3.3",
         "mockery/mockery": "0.9.4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/boukeversteegh/hookable.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Sofa\\Eloquence\\": "src"
